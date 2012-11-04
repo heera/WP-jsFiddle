@@ -55,6 +55,7 @@ function wp_fiddle_function()
 		$tabs='result,js,html,css';
 	}
 	$fiddle_theme=get_option('fiddle_theme');
+	$fiddle_theme=$fiddle_theme=='' ? 'light' : $fiddle_theme;
 	$jsFiddleOff=get_option('jsFiddleOff', true);
 	if($jsFiddleOff && !is_array($jsFiddleOff)) $jsFiddleOff=array('frontPage', 'categoryPage', 'archivePage');
 	
