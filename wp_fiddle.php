@@ -119,7 +119,7 @@ function wp_fiddle_function()
 				</p>
 				<h2>DEMO</h2>
 				<div id="jsf" style="height:400px;border:solid #4173A0 1px">
-					<iframe style='width: 100%; height: 100%;' src='http://jsfiddle.net/heera/VStJ5/9/embedded/<?php echo $tabs.'/'.$fiddle_theme ?>' frameborder='0'></iframe>
+					<iframe style='width: 100%; height: 100%;' src='http://jsfiddle.net/heera/QLpVM/32/embedded/<?php echo $tabs.'/'.$fiddle_theme ?>' frameborder='0'></iframe>
 				</div>	
 			</form>
 		</div>
